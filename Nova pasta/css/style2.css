@@ -1,0 +1,312 @@
+@import url('https://fonts.cdnfonts.com/css/prudencia');
+
+body{
+  font-family: 'Prudencia', sans-serif;
+    overflow: hidden;
+    background-image: url(/images/cavernalava.gif);
+    background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(24, 22, 22);
+    width: 355px;
+    height: 325px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top:10px;
+    background-color: #ffffff;
+    color:white;
+    border:none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+
+}
+section h1{
+    color: #f5f5f5;
+}
+
+.input::placeholder{
+    color: white;
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #ff0000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    color:white;
+}
+
+
+body, h1, h2, h3, p, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .margin{
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: rgb(252, 0, 0);
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+    background-image: url(/images/future.gif);
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 15pt;
+    position: relative;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.action_btn:hover{
+    scale: 1.05;
+    color: #fff;
+}
+
+.action_btn:active{
+    scale: 0.95;
+}
+
+  
+  #latest-posts {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .post-card {
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .post-info {
+    padding: 20px;
+  }
+  
+  .post-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #single-post {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+  }
+  
+  #back-button {
+    display: block;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #post-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #post-content {
+    margin-bottom: 20px;
+  }
+  
+  #comments-list {
+    margin-bottom: 20px;
+    list-style-type: none;
+  }
+  
+  #comments-list li {
+    margin-bottom: 10px;
+  }
+  
+  #comments-list h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #comment-form input,
+  #comment-form textarea,
+  #comment-form button {
+    margin-bottom: 10px;
+  }
+  
+  aside{
+    background-color: #00776d;
+    color: #fff;
+    padding: 40px 20px;
+  
+  }
+  
+  aside h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  aside a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #00776d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .categoria  {
+    display: flex;
+    flex-direction: row;
+  }
+  .icon img{
+    width: 50px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 0, 0);    
+    border-radius: 20px;       
+    border: 3px solid rgb(255, 0, 0);  
+  }
